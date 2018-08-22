@@ -69,3 +69,25 @@ margin-top: 7px;
 	width: 75%;
 	margin: 0 auto;
 }
+
+
+.gallery-section {
+	height: 450px;
+}
+
+.headline h1 {
+	margin: 90px 0 30px;
+	display: block;
+}
+
+.g-i.img-responsive {
+	max-height: 360px;
+}
+
+.gallery h2 {
+	font-size: 14px;
+}
+
+.gallery h3 {
+		font-size: 11px;
+}
