@@ -91,3 +91,9 @@ margin-top: 7px;
 .gallery h3 {
 		font-size: 11px;
 }
+
+
+.img-responsive {
+	width: 100%;
+	max-width: 100%;
+}
