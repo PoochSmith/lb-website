@@ -97,3 +97,34 @@ margin-top: 7px;
 	width: 100%;
 	max-width: 100%;
 }
+
+header {
+	background: white;
+}
+
+.navbar {
+    padding: 0;
+    margin-top: 7px;
+    width: 81px;
+    display: inline-block;
+    float:right;
+}
+
+
+@media (max-width: 575px) { 
+	
+	 }
+
+@media (max-width: 767px) { 
+	 
+	 
+	 }
+
+
+@media (max-width: 991px) { 
+	
+}
+
+@media (max-width: 1199px) { 
+	
+}
