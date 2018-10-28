@@ -27,6 +27,62 @@ background-position: 50% 50%;
 background-repeat: no-repeat;	
 }
 
+.hero-panel-0 {
+background: url("../images/art0.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-1 {
+background: url("../images/art1.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-2 {
+background: url("../images/art2.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-3 {
+background: url("../images/art3.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-4 {
+background: url("../images/art4.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-5 {
+background: url("../images/art5.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-6 {
+background: url("../images/art6.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
+.hero-panel-7 {
+background: url("../images/art7.jpg");
+background-size:cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;	
+}
+
 
 header {
 position: fixed;
@@ -85,7 +141,8 @@ margin-top: 7px;
 }
 
 .gallery h2 {
-	font-size: 14px;
+	font-size: 16px;
+	margin: 10px 0;
 }
 
 .gallery h3 {
@@ -105,9 +162,9 @@ header {
 .navbar {
     padding: 0;
     margin-top: 7px;
-    width: 81px;
-    display: inline-block;
-    float:right;
+    width: initial;
+    display: block;
+    float: right;
 }
 
 
