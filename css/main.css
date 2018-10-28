@@ -167,6 +167,10 @@ header {
     float: right;
 }
 
+.work .wrapper.f-h {
+	height: 85vh;
+}
+
 
 @media (max-width: 575px) { 
 	
