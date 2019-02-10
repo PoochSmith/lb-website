@@ -10,9 +10,25 @@ h1 {
 	font-size: 32px;
 }
 
+h1.span {
+	font-size: 12px;
+}
+
 h2 {
 	font-size: 26px;
 }
+
+a, link , a:hover, link:hover {
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+
+
 
 .hero-picture {
 background: url("../images/home-image.jpeg");
@@ -29,21 +45,21 @@ background-repeat: no-repeat;
 }
 
 .hero-panel-about {
-	 background: url("../images/ewe.png");
+	 background: url("../images/scotland-costline-rocks.jpg");
 	 background-size:cover;
 	 background-position: 50% 50%;
 	 background-repeat: no-repeat;
  }
 
 .hero-panel-about-four {
-	background: url("../images/ewe3.png");
+	background: url("../images/scotland-bothy.jpg");
 	background-size:cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 
 .hero-panel-about-three {
-	background: url("../images/ewe2.png");
+	background: url("../images/scotland-rocks.jpg");
 	background-size:cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -122,6 +138,11 @@ width: 100vw;
 h1.page-title {
 margin: 10px 0;
 font-size: 26px;
+text-decoration: none;
+}
+
+h1.page-title span {
+	font-size: 12px;
 }
 
 .navbar {
@@ -202,24 +223,6 @@ header {
 }
 
 
-@media (max-width: 575px) {
-
-	 }
-
-@media (max-width: 767px) {
-
-
-	 }
-
-
-@media (max-width: 991px) {
-
-}
-
-@media (max-width: 1199px) {
-
-}
-
 
 /* DivTable.com */
 .divTable{
@@ -287,5 +290,231 @@ header {
 .gallery  .main-section {
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+
+.img-thumbnail {
+	border: none;
+	border-radius: 0px;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.row.gallery {
+	margin-bottom: 30px;
+}
+
+
+.main-text {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	background: white;
+	padding: 15px;
+	z-index: 11;
+	width: 50%;
+	background-color: rgba(355, 355, 355, 0.6);
+
+}
+
+.main-text p {
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0;
+}
+
+html,
+body {
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+	padding-top: 56px;
+}
+
+@media (max-width: 991.98px) {
+	.offcanvas-collapse {
+		position: fixed;
+		top: 56px; /* Height of navbar */
+		bottom: 0;
+		left: 100%;
+		width: 100%;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		overflow-y: auto;
+		visibility: hidden;
+		background-color: #343a40;
+		transition-timing-function: ease-in-out;
+		transition-duration: .3s;
+		transition-property: left, visibility;
+	}
+	.offcanvas-collapse.open {
+		left: 0;
+		visibility: visible;
+	}
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	color: rgba(255, 255, 255, .75);
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	font-size: .875rem;
+	color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+	color: #007bff;
+}
+
+.nav-underline .active {
+	font-weight: 500;
+	color: #343a40;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: #6f42c1; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+.navbar.bg-light {
+	background-color: transparent!important;
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 767px) {
+	.row.gallery {
+		margin-bottom: 0px;
+	}
+	.main-text {
+		width: 100%;
+		right:0;
+		bottom: 0;
+	}
+
+	.f-h {
+		height: inherit;
+	}
+
+	.f-h.hero-m {
+		height: 350px;
+	}
+	.v-w-r {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h1.page-section-title {
+		font-size: 32px;
+		margin: 30px 0 15px 0;
+	}
+	.about-page .small, .about-page .large {
+		height: auto;
+	}
+
+	h1.page-title span {
+		display: flex;
+		margin: 0 ;
+	}
+	.sub-text-section {
+		margin: 30px 0;
+	}
+
+	h1.page-title {
+		margin: 0 0 15px 0;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	.navbar-collapse.collapse, .navbar-collapse.collapsing {
+		left: 0;
+		top: 66px;
+		height: 0vh;
+		background: black;
+		width: 100%;
+		max-width: 100%;
+		bottom: 0;
+		opacity: 0;
+	}
+
+	.navbar-collapse.collapse.show {
+		position: fixed;
+		left: 0;
+		top: 66px;
+		height: 100vh;
+		background-color: rgba(29, 29, 29, 0.9);
+		width: 100%;
+		max-width: 100%;
+		bottom: 0;
+		opacity: 1;
+
+	}
+	header {
+		background: white;
+		height: 65px!important;
+	}
+	.navbar-collapse ul {
+		padding: 30px;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		color: white;
+		font-size: 16px;
+	}
+
+	.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover {
+		color: #c2c2c2;
+	}
+	.navbar, .navbar-toggler {
+		float: right!important;
+	}
+	.work .wrapper.f-h {
+		height: auto;
+	}
+	.gallery .main-section {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	header h1.page-title {
+		margin: 10px 0;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 1199px) {
+
 }
 
