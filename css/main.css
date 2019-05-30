@@ -170,6 +170,10 @@ margin-top: 7px;
 }
 
 
+.gallery .wrapper {
+	height: inherit;
+}
+
 .gallery-section {
 	height: 450px;
 }
