@@ -28,7 +28,12 @@ p {
 }
 
 
-
+.hero-panel-lightbox {
+	background: url("../images/lightbox1stplinth.jpg");
+	background-size:cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;	
+}
 
 .hero-picture {
 background: url("../images/home-image.jpeg");
