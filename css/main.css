@@ -36,6 +36,11 @@ p {
   line-height: 22px;
 }
 
+.cr {
+  font-size:10px;
+  margin-top: 15px;
+}
+
 .hero-panel-lightbox {
   background: url("../images/lightbox1stplinth.jpg");
   background-size: cover;
