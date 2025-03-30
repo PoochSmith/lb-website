@@ -36,9 +36,12 @@ p {
   line-height: 22px;
 }
 
-.cr {
+.main-text p.cr {
   font-size:10px;
   margin-top: 15px;
+    font-size: 12px;
+    display: block;
+    color: #595252;
 }
 
 .hero-panel-lightbox {
